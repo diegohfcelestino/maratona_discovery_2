@@ -2,6 +2,12 @@
 <html>
     
     <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#41414C" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+        <title>Login</title>
         <link rel="stylesheet" href="/styles/main.css" />
         <link rel="stylesheet" href="/styles/partials/page-header.css" />
         <link rel="stylesheet" href="/styles/partials/cards.css" />
@@ -9,7 +15,6 @@
         <link rel="stylesheet" href="/styles/partials/forms.css" />
         <link rel="stylesheet" href="/styles/partials/animations.css" />
         <link rel="stylesheet" href="/styles/pages/profile.css" />
-    
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
@@ -19,26 +24,35 @@
         <style>
             body{
                 padding-top: 100px;
-                color: #4F4F5B;
+                color: #F1972C;
             }
         </style>
     </head>
     <body>
-        <div class="container animate-up delay-2">
-            <h1>Login</h1>
-            <form class="jumbotron" action="/login" method="POST">
-            <input name="username" type="text" /><br />
-            <input name="password" type="password" /><br />
-            <input class="button green" type="submit" value="Login" />
-            </form>
-            <% if(message) { %>
-                <p>
-                <label style="color:Red"><%= message %></label>
-                </p>
-            <%}%>
-            <p>
-                <a href="">Esqueceu sua senha?</a> | <a href="">Não possui cadastro?</a>
-            </p>
+        <div class="jumbotron">
+            <img id="logo" src="/images/logo.svg" alt="Logo" />
         </div>
+        <header class="page-header">
+            <div class="container">
+              <section id="top" class="animate-up">
+                
+                <div class="container animate-up delay-2">
+                    <h1>Login</h1>
+                    <form class="jumbotron" action="/login" method="POST">
+                    <input name="username" type="text" placeholder="Usuário"/><br />
+                    <input name="password" type="password" placeholder="Senha" /><br />
+                    <input class="button green" type="submit" value="Login" />
+                    </form>
+                    <% if(message) { %>
+                        <p>
+                        <label style="color:Red"><%= message %></label>
+                        </p>
+                    <%}%>
+                    <p>
+                        <a href="">Esqueceu sua senha?</a> | <a href="">Não possui cadastro?</a>
+                    </p>
+                </div>
+            </section>  
+        </header>      
     </body>
 </html>

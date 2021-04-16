@@ -31,7 +31,6 @@ module.exports = {
     const profile = await Profile.get()
 
     job.budget = JobUtils.calculateBudget(job, profile["value-hour"])
-
     return res.render("job-edit", { job })
   },
 
@@ -56,4 +55,6 @@ module.exports = {
     
     return res.redirect('/')
   }
+
+  
 }

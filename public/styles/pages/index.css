@@ -275,3 +275,77 @@ main {
     grid-area: rb;
   }
 }
+
+
+/* efeitos de animação da barra de progresso*/
+@-webkit-keyframes listras-anim {
+  from {background-position:40px 0}
+  to {background-position:0 0}
+  }
+  @-moz-keyframes listras-anim {
+  from {background-position:40px 0}
+  to {background-position:0 0}
+  }
+  @-o-keyframes listras-anim {
+  from {background-position:40px 0}
+  to {background-position:0 0}
+  }
+  @keyframes listras-anim {
+  from {background-position:40px 0}
+  to {background-position:0 0}
+  }
+
+  .progresso-pai .progresso-barra {
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255,255,255,.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255,255,255,.15)), color-stop(0.75, rgba(255,255,255,.15)), color-stop(0.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255,255,255,.15)25%, transparent 25%, transparent 50%, rgba(255,255,255,.15)50%, rgba(255,255,255,.15)75%, transparent 75%, transparent);
+    background-size: 40px 40px
+  }
+  .progresso.ativa .progresso-barra {
+    -webkit-animation: listras-anim 2s linear infinite;
+    -moz-animation: listras-anim 2s linear infinite;
+    -ms-animation: listras-anim 2s linear infinite;
+    -o-animation: listras-anim 2s linear infinite;
+    animation: listras-anim 2s linear infinite
+  }
+
+  /*cor da barra*/
+  .progresso-barra {
+    border-radius: 0.313rem;
+    /*width: 10%; /*porcentagem da barra de progresso*/
+    width: calc(100% - 20%);
+    height: 15px;
+    background-color: #502ee9;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    /*box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);*/
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+
+    transition: all 0.2s;
+    overflow: hidden;
+    padding: 1px;
+    box-shadow: inset -1px -1px 18px #CECECE, inset 0 -1px 0 #CECECE;
+    position: relative;
+    
+  }
+
+  #label {
+    text-align: center;
+    line-height: 15px;
+  }
+
+/*
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid purple;
+    margin-top: 1.5rem;
+    background-color: #fff;
+  }
+  
+  #progressBarFull {
+    height: 3.4rem;
+    background-color: purple;
+    width: 0%;
+  }*/

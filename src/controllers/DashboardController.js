@@ -27,11 +27,16 @@ module.exports = {
       // total de horas por dia de cada Job em progresso
       jobTotalHours = status == 'progress' ? jobTotalHours + Number(job['daily-hours']) : jobTotalHours
 
+
+      const calculatePercent = () => ((job["daily-hours"] / job["total-hours"]) * 100).toFixed(2)
+      const progress = calculatePercent() >= 100 ? 100: calculatePercent()
+
       return {
         ...job,
         remaining,
         status,
         budget: JobUtils.calculateBudget(job, profile["value-hour"]),
+        progress,
       };
     });
 
