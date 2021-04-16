@@ -43,9 +43,9 @@ module.exports = function(passport){
      
                 // comparando as senhas
                 const isValid = bcrypt.compareSync(password, user.password);
-                if (!isValid) return done(null, false)
+                if (!isValid) return done(null, false);
+                return done(null, user);
                 
-                return done(null, user)
             } catch (err) {
                 done(err, false);
             }

@@ -7,8 +7,6 @@ const DashboardController = require('./controllers/DashboardController')
 const passport = require('passport');
 
 
-
-
 routes.get('/', DashboardController.index)
 routes.get('/job', JobController.create)
 routes.post('/job', JobController.save)
