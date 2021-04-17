@@ -314,7 +314,7 @@ main {
   .progresso-barra {
     border-radius: 0.313rem;
     /*width: 10%; /*porcentagem da barra de progresso*/
-    width: calc(100% - 20%);
+    /*width: calc(100% - 20%);*/
     height: 15px;
     background-color: #502ee9;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);

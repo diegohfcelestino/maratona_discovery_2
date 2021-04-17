@@ -86,10 +86,10 @@
           <% jobs.forEach((job) => { %>
             <div class="progresso progresso-pai ativa">
               <div class="progresso-barra" data-ls-module="progressBar" role="progressbar" aria-valuenow="75" class="ls-animated">
-                <div id="label"><%= job.progress %>%</div>
-              </div>            
-            </div>
-            
+                <div id="label"><%= job.progress %> %</div>
+              </div>          
+            </div>   
+                    
             <div class="card <%= job.status %> " data-id="<%= job.id %>">
               <div class="id column"><%= job.id %> </div>
               <div class="name column">
