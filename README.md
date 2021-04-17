@@ -11,6 +11,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
+  <a href="#autor">Autor</a>
 </p>
 
 <p align="center">
@@ -22,22 +23,8 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
+  <img alt="Jobscalc" src=".github/jobscalc.png" width="100%">
 </p>
-
-## :dart: O que é o app Maratona Discovery 2?
-
-É uma aplicação desenvolvida para administração de projetos.<br/>
-O usuário entra no perfil e faz seu cadastro informando nome, foto e cadastra seu planejamento de trabalho, como quanto quer ganhar no mês, quantas horas quer trabalhar por dia, quantos dias na semana e quantas férias quer ter no ano, com base nisso o sistema calcula o valor de sua hora. 
-## Demonstration
-
-![alt text](https://github.com/diegohfcelestino/maratona_discovery_2/blob/main/img/jobscalc.png?raw=true)
-<br/>
-
-<br/>
-
-
-
 
 ## 🚀 Tecnologias
 
@@ -57,12 +44,46 @@ O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Tela de login
+<p align="center">
+  <img alt="login" src=".github/login.png" width="100%">
+</p>
+
+Perfil
+<p align="center">
+  <img alt="perfil" src=".github/pefil.png" width="100%">
+</p>
+
+Cadastro de job
+<p align="center">
+  <img alt="novojov" src=".github/novojob.png" width="100%">
+</p>
+
+Edição de job
+<p align="center">
+  <img alt="editarjob" src=".github/editarjob.png" width="100%">
+</p>
+
+DashBoard
+<p align="center">
+  <img alt="dashboard" src=".github/jobscalc.png" width="100%">
+</p>
+
+Excluir job
+<p align="center">
+  <img alt="ecluirjob" src=".github/excluirjob.png" width="100%">
+</p>
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
 
 ---
+## Autor
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito com ♥ by Diego Henrique Ferreira e orientado por Mayk Brito e Jakeliny Gracielly na Maratona Discovery da Rocketseat :wave: [Participe da comunidade!](https://discordapp.com/invite/gCRAFhc)
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=link_do_seu_perfil_no_github)](https://github.com/diegohfcelestino)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/diego-ferreira-34b6348b/)](https://www.linkedin.com/in/diego-ferreira-34b6348b/)
+[![Whatsapp Badge](https://img.shields.io/badge/-Whatsapp-4CA143?style=flat-square&labelColor=4CA143&logo=whatsapp&logoColor=white&link=https://api.whatsapp.com/send?phone=+5516991187434&text=Hello!)](https://api.whatsapp.com/send?phone=+5516991187434&text=Hello!)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:diegohfcelestino@gmail.com)](mailto:diegohfcelestino@gmail.com)
+<br/>
