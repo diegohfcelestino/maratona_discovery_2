@@ -50,50 +50,50 @@ O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer
 
 
 ### Tela de login
-<br>
 Usuário ao entrar deve se autenticar informando usuário e senha para continuar navegando no sistema.
 <br>
 Usuário - admin<br>
 Senha - 123 <br>
+<br>
 <p align="center">
   <img alt="login" src=".github/login.png" width="75%">
 </p>
 
 
 ### Perfil
-<br>
 Na tela do perfil é onde o usuário vai cadastar o nome e colocar sua foto.<br>
 Tamber vai fazer o cadastro de seu planejamento do trabalho, onde deve informar salario mensal, horas trabalhadas por dia, dias por semana e quantas férias vai usufrir no ano.<br>
 Com base nestas informações o sistema vai calcular qual o valor de sua hora de trabalho.
 <br>
+
 <p align="center">
   <img alt="perfil" src=".github/perfil.png" width="75%">
 </p>
 
 
 ### Cadastro de job
-<br>
 Para cadastrar um novo job basta clicar no botão "Adicionar Novo Job", serão informados o nome do job, quantas horas por dia vão ser dedicada neste job e qual a estimativa de horas para terminar o projeto.<br>
 O sistema vai fazer o calculo do prazo para entrega do projeto (em dias), vai calcular o valor do projeto e também vai informar na barra de progresso quantos percentuais foram concluidos no projeto (conforme for lançando as horas dedicadas), ao atingir o total de horas planejadas o sistema vai concluir o projeto com 100% e encerrar o mesmo.
 <br>
+
 <p align="center">
   <img alt="novojov" src=".github/novojob.png" width="75%">
 </p>
 
 
 ### Edição de job
-<br>
 É possivel fazer a edição do job caso tenha cadastrado alguma informação errada e é nessa tela que tambem vai acrescentando as horas dedicadas.
 <br>
+
 <p align="center">
   <img alt="editarjob" src=".github/editarjob.png" width="75%">
 </p>
 
 
 ### Excluir job
-<br>
 Caso tenha cadastrado algum job e não quer controlar ele, ou não vai ser executado, basta excluir.
 <br>
+
 <p align="center">
   <img alt="ecluirjob" src=".github/excluirjob.png" width="75%">
 </p>
@@ -102,6 +102,7 @@ Caso tenha cadastrado algum job e não quer controlar ele, ou não vai ser execu
 Na tela principal do sistema ficam todas as informações dos projetos (jobs), tem um dashboad bem interativo onde informa, quantas horas tem disponivel em seu dia, quantos projetos total, em andamento e encerrados.<br>
 Para sair de sua conta, basta clicar no botão "Sair"
 <br>
+
 <p align="center">
   <img alt="dashboard" src=".github/jobscalc.png" width="75%">
 </p>
