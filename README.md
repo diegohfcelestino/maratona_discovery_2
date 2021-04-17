@@ -2,6 +2,10 @@
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
 
+<h4 align="center">
+  Projeto desenvolvido durante a 2° edição da Maratona Discovery da Rocketseat, totalmente gratuita e está disponivel no site<a href="https://app.rocketseat.com.br/dashboard">Rocketseat</a>
+</h4>
+
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,6 +24,20 @@
 <p align="center">
   <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
+
+## :dart: O que é o app Maratona Discovery 2?
+
+É uma aplicação desenvolvida para administração de projetos.<br/>
+O usuário entra no perfil e faz seu cadastro informando nome, foto e cadastra seu planejamento de trabalho, como quanto quer ganhar no mês, quantas horas quer trabalhar por dia, quantos dias na semana e quantas férias quer ter no ano, com base nisso o sistema calcula o valor de sua hora. 
+## Demonstration
+
+![alt text](https://github.com/diegohfcelestino/maratona_discovery_2/blob/main/img/jobscalc.png?raw=true)
+<br/>
+
+<br/>
+
+
+
 
 ## 🚀 Tecnologias
 
